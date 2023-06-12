@@ -1,0 +1,42 @@
+.pagination_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+
+.btn_back,
+.btn_next{
+    cursor: pointer;
+
+    width: 4rem;
+    height: 2rem;
+   
+    background: #dd1a1ae0;
+    color: white;
+    border-radius: 10px;
+
+   
+}
+.btn_numbers{
+    cursor: pointer;
+
+    width: 2rem;
+    height: 2rem;
+   
+    background: #dd1a1ae0;
+    color: white;
+    border-radius: 10px;
+}
+.btn_back:active,
+.btn_next:active,
+.btn_numbers:active,
+.btn_back:focus,
+.btn_next:focus,
+.btn_numbers:focus {
+  background-color: yellow;
+  color: black;
+}

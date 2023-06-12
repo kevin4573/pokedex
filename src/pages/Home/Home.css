@@ -1,0 +1,107 @@
+.home_container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background: #E5E5E5;
+}
+.home_pekedex_img{
+    text-align: center;
+}
+.home_pekedex_img img{
+    width: 40rem;
+}
+
+.home_pekedex_text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #302F2F;
+}
+.item_container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+ 
+}
+.charmander{
+    max-width: 12rem;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .home_pekedex_img img{
+        width: 35rem;
+    }
+    .home_pekedex_title{
+        font-size: 35px;
+    }
+    .home_pekedex_text{
+        font-size: 18px;
+    }
+    .charmander{
+        max-width: 11rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) and (min-width: 391px) {
+    .home_pekedex_img img{
+        width: 21rem;
+    }
+    .home_pekedex_title{
+        font-size: 25px;
+    }
+    .home_pekedex_text{
+        font-size: 14px;
+    }
+    .charmander{
+        max-width: 10rem;
+    }
+}
+
+@media screen and (max-width: 390px) and (min-width: 320px) {
+    .home_pekedex_img img{
+        width: 20rem;
+    }
+    .home_pekedex_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .home_pekedex_text{
+        font-size: 14px;
+    }
+    .charmander{
+        max-width: 10rem;
+    }
+
+ }
+ @media screen and (max-width: 319px) and (min-width: 300px) {
+    .home_pekedex_img img{
+        width: 17rem;
+    }
+    .home_pekedex_title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .home_pekedex_text{
+        font-size: 12px;
+    }
+    .charmander{
+        max-width: 10rem;
+    }
+
+ }
+ .home_container {
+    background-image: url('../../assets/img/pokefondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  

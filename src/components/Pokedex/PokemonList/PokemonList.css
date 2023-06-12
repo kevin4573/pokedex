@@ -1,0 +1,18 @@
+.pokemons_list_container{
+    margin: 2.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    list-style: none;
+
+}
+.link_list_container{
+    color: unset;
+    text-decoration: unset;
+}
+.space_footer{
+    margin-bottom: 5rem;
+}

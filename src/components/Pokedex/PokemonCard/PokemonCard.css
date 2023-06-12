@@ -1,0 +1,117 @@
+.pokemon_card_container{
+
+    width: 16rem;
+    height: 30rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+}
+.pokemon_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+        
+    background: linear-gradient(178.92deg, #c1c67e 0.92%, #d9daab 47.96%, #dfe099 99.08%);
+    border-radius: 1rem;
+
+}
+.pokemon_card_img{
+    padding: 0 0.8rem;
+}
+.pokemon_card_img img{
+    width: 13rem ;
+    height: 13rem ;
+    padding: 0.2rem;
+
+    border-radius: 1rem;
+ 
+    
+}
+.pokemon_card_name{
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+
+    color: rgba(170, 56, 56, 0.873);
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+    color: #ffffff;
+}
+h2{
+    text-decoration: none;
+    font-style: none;
+}
+.pokemon_card_types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-weight: 500;
+}
+
+.types_container_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.types_container_item{
+   
+}
+
+
+.pokemon_card_stats{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 1rem;
+   
+}
+.pokemon_card_stats ul{
+    width: 90%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    
+    list-style: none;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+
+    background: linear-gradient(179.75deg, #e21515c0 -19.96%, #ba3232bb 43.67%, #ee7c7cc6 138.4%);
+
+    border-radius: 1rem;
+    color: white;
+
+}
+.pokemon_card_stats ul li{
+    width: 5rem;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+    
+
+   
+}
